@@ -1,0 +1,63 @@
+2020/02/24 01:21:25 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:21:26 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:21:28 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:21:29 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:21:33 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:21:35 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:21:39 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:21:47 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:22:01 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:22:27 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:25:56 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:25:57 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:25:58 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:26:00 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:26:02 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:26:04 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:26:08 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:26:16 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:26:29 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:26:56 [emerg] 1#1: host not found in upstream "frontend" in /etc/nginx/conf.d/brender.conf:7
+2020/02/24 01:27:49 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:27:50 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:27:52 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:27:53 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:27:55 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:27:57 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:28:01 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:28:09 [emerg] 1#1: cannot load certificate "/etc/nginx/certs/your_site_crt_file.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/certs/your_site_crt_file.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/24 01:31:11 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:31:12 [error] 6#6: *1 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET /favicon.ico HTTP/1.1", host: "brender.cn", referrer: "https://brender.cn/"
+2020/02/24 01:31:26 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:33:37 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:33:40 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:33:47 [error] 6#6: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:33:48 [error] 6#6: *3 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET /favicon.ico HTTP/1.1", host: "www.brender.cn", referrer: "https://www.brender.cn/"
+2020/02/24 01:33:55 [error] 6#6: *3 open() "/etc/nginx/html/index.html" failed (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET /index.html HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:34:10 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:39:27 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:39:29 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:39:36 [error] 6#6: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:40:05 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:44:36 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:44:37 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:44:41 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:45:12 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:45:13 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:45:42 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:45:44 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:46:02 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:46:08 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:46:10 [error] 6#6: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:46:18 [error] 6#6: *3 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:46:18 [error] 6#6: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET /favicon.ico HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:46:47 [error] 6#6: *2 "/var/www/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:46:49 [error] 6#6: *2 "/var/www/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:47:11 [error] 6#6: *1 "/var/www/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:47:15 [error] 6#6: *2 "/var/www/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:47:16 [error] 6#6: *3 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET /favicon.ico HTTP/1.1", host: "brender.cn"
+2020/02/24 01:47:23 [error] 6#6: *4 "/var/www/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 01:47:29 [error] 6#6: *5 "/var/www/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:47:33 [error] 6#6: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET /favicon.ico HTTP/1.1", host: "www.brender.cn"
+2020/02/24 01:48:21 [error] 6#6: *9 "/var/www/html/index.html" is not found (2: No such file or directory), client: 118.140.243.89, server: www.brender.cn, request: "GET / HTTP/1.1", host: "brender.cn"
+2020/02/24 02:08:13 [error] 6#6: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 36.102.217.41, server: www.brender.cn, request: "GET /favicon.ico HTTP/1.1", host: "brender.cn"
