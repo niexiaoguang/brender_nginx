@@ -1,0 +1,16 @@
+version: '3.0'
+
+services:
+  nginx:
+    restart: always
+    image: nginx
+    ports:
+      - 8080:80
+      - 80:80
+      - 443:443
+    volumes:
+      - ./www:/var/www
+      - ./data/certs:/etc/nginx/certs
+      - ./data/conf.d:/etc/nginx/conf.d
+      - ./data/log:/var/log/nginx
+
