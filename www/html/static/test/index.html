@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test qrcode</title>
+    <script type="text/javascript" src="./jquery.min.js"></script>
+    <script type="text/javascript" src="./qrcode.min.js"></script>
+</head>
+
+<body>
+	<p>hello</p>
+    <div id="qrcode"></div>
+    <script type="text/javascript">
+    console.log('hello');
+
+    function make_code(state) {
+        var url =
+            "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx71881af6d1cdaea8&redirect_uri=https://www.brender.cn/api/wechat/login_call_back&response_type=code&scope=snsapi_userinfo&state=" + str(state) + "#wechat_redirect";
+        console.log('url is ' + url);
+        new QRCode(document.getElementById("qrcode"), url);
+    }
+    var state = new Date().getTime();
+    make_code(state);
+    </script>
+    <script type="text/javascript">
+    </script>
+</body>
+
+</html>

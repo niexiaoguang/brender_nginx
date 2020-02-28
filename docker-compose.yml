@@ -5,11 +5,10 @@ services:
     restart: always
     image: nginx
     ports:
-      - 8080:80
       - 80:80
       - 443:443
     volumes:
       - ./www/html:/usr/share/nginx/html:ro
-      - ./data/certs:/etc/nginx/certs:ro
-      - ./data/conf.d:/etc/nginx/conf.d:ro
       - ./data/log:/var/log/nginx
+      - ./data/conf.d:/etc/nginx/conf.d:ro
+      - ./data/certs:/etc/nginx/certs:ro
