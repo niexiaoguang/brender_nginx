@@ -2,41 +2,10 @@
 <html>
 
 <head>
-    <title>test qrcode</title>
-    <script type="text/javascript" src="./qrious.min.js"></script>
+    <title>brender</title>
 </head>
-
 <body>
-    <p>hello</p>
-    <canvas id="qrcode"></canvas>
-    <script type="text/javascript">
-    console.log('hello');
-
-    function getUrlVars() {
-        var vars = {};
-        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
-            vars[key] = value;
-        });
-        return vars;
-    }
-
-    function make_code(state) {
-        var url =
-            "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx71881af6d1cdaea8&redirect_uri=https://www.brender.cn/api/wechat/login_call_back&response_type=code&scope=snsapi_userinfo&state=" + state + "#wechat_redirect";
-        console.log('url is ' + url);
-
-        var qr = new QRious({
-            background:'green',
-            level: 'H',
-            padding: 25,
-            size: 300,
-            element: document.getElementById('qrcode'),
-            value: url
-        });
-    }
-    var state = getUrlVars()['uuid'];
-    make_code(state);
-    </script>
+    hi there brender erlang haha !!
     <script type="text/javascript">
     </script>
 </body>

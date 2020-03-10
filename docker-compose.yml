@@ -11,4 +11,4 @@ services:
       - ./www/html:/usr/share/nginx/html:ro
       - ./data/log:/var/log/nginx
       - ./data/conf.d:/etc/nginx/conf.d:ro
-      - ./data/certs:/etc/nginx/certs:ro
+      # - ./data/certs:/etc/nginx/certs:ro
