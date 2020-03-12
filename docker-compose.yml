@@ -12,5 +12,6 @@ services:
     volumes:
       - ./www/html:/usr/share/nginx/html:ro
       - ./data/log:/var/log/nginx
-      - ./data/conf.d:/etc/nginx/conf.d:ro
+      - ./data/conf.d/rabbit/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./data/conf.d/brender:/etc/nginx/conf.d:ro
       - ./data/certs:/etc/nginx/certs:ro
