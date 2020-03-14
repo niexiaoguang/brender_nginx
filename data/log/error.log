@@ -791,3 +791,108 @@
 2020/03/12 14:43:47 [emerg] 1#1: the invalid "tcp" parameter in /etc/nginx/nginx.conf:18
 2020/03/12 14:44:01 [emerg] 1#1: the invalid "tcp" parameter in /etc/nginx/nginx.conf:18
 2020/03/12 14:44:27 [emerg] 1#1: the invalid "tcp" parameter in /etc/nginx/nginx.conf:18
+2020/03/12 15:15:05 [error] 9#9: *438 connect() failed (111: Connection refused) while connecting to upstream, client: 192.241.221.208, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/12 17:24:03 [error] 9#9: *2287 connect() failed (111: Connection refused) while connecting to upstream, client: 128.14.134.170, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/12 22:11:35 [error] 8#8: *2664 connect() failed (111: Connection refused) while connecting to upstream, client: 5.8.10.202, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86:443"
+2020/03/12 23:42:54 [error] 9#9: *2674 connect() failed (111: Connection refused) while connecting to upstream, client: 167.172.105.234, server: erl.brender.cn, request: "GET /admin/config.php?password%5B0%5D=ZIZO&username=admin HTTP/1.1", upstream: "http://172.18.0.1:9000/admin/config.php?password%5B0%5D=ZIZO&username=admin", host: "182.92.200.86"
+2020/03/13 00:15:31 [error] 9#9: *2677 connect() failed (111: Connection refused) while connecting to upstream, client: 210.73.213.226, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86:443"
+2020/03/13 01:55:10 [error] 8#8: *2687 connect() failed (111: Connection refused) while connecting to upstream, client: 165.22.236.39, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 01:55:10 [error] 8#8: *2687 connect() failed (111: Connection refused) while connecting to upstream, client: 165.22.236.39, server: erl.brender.cn, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.1:9000/favicon.ico", host: "182.92.200.86"
+2020/03/13 04:54:22 [error] 8#8: *2699 connect() failed (111: Connection refused) while connecting to upstream, client: 101.4.110.154, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 05:18:09 [error] 9#9: *2701 connect() failed (111: Connection refused) while connecting to upstream, client: 122.228.19.80, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86:443"
+2020/03/13 05:26:30 [error] 8#8: *2703 connect() failed (111: Connection refused) while connecting to upstream, client: 128.14.134.134, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 05:27:53 [error] 8#8: *2706 connect() failed (111: Connection refused) while connecting to upstream, client: 101.251.238.50, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86:443"
+2020/03/13 06:50:17 [warn] 8#8: *2721 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 103.55.240.132, server: rabbit.brender.cn, request: "GET /js/singular/singular.js HTTP/1.1", upstream: "https://172.18.0.1:15671/js/singular/singular.js", host: "rabbit.brender.cn", referrer: "https://rabbit.brender.cn/"
+2020/03/13 09:35:44 [error] 8#8: *5636 connect() failed (111: Connection refused) while connecting to upstream, client: 39.98.166.90, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 09:41:16 [error] 8#8: *5643 peer closed connection in SSL handshake (104: Connection reset by peer) while SSL handshaking to upstream, client: 103.55.240.130, server: rabbit.brender.cn, request: "GET /api/queues?page=1&page_size=100&name=&use_regex=false&pagination=true HTTP/1.1", upstream: "https://172.18.0.1:15671/api/queues?page=1&page_size=100&name=&use_regex=false&pagination=true", host: "rabbit.brender.cn", referrer: "https://rabbit.brender.cn/"
+2020/03/13 09:41:18 [error] 8#8: *5643 peer closed connection in SSL handshake (104: Connection reset by peer) while SSL handshaking to upstream, client: 103.55.240.130, server: rabbit.brender.cn, request: "GET / HTTP/1.1", upstream: "https://172.18.0.1:15671/", host: "rabbit.brender.cn", referrer: "https://rabbit.brender.cn/"
+2020/03/13 09:41:18 [error] 8#8: *5643 peer closed connection in SSL handshake (104: Connection reset by peer) while SSL handshaking to upstream, client: 103.55.240.130, server: rabbit.brender.cn, request: "GET /favicon.ico HTTP/1.1", upstream: "https://172.18.0.1:15671/favicon.ico", host: "rabbit.brender.cn", referrer: "https://rabbit.brender.cn/"
+2020/03/13 10:20:44 [error] 9#9: *6944 connect() failed (111: Connection refused) while connecting to upstream, client: 47.100.127.188, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/13 10:20:44 [error] 9#9: *6946 connect() failed (111: Connection refused) while connecting to upstream, client: 47.100.127.188, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/13 10:20:44 [error] 9#9: *6948 connect() failed (111: Connection refused) while connecting to upstream, client: 47.100.127.188, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/13 10:21:22 [error] 8#8: *6966 connect() failed (111: Connection refused) while connecting to upstream, client: 169.197.108.6, server: erl.brender.cn, request: "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1", upstream: "http://172.18.0.1:9000/Telerik.Web.UI.WebResource.axd?type=rau", host: "182.92.200.86"
+2020/03/13 10:50:42 [error] 9#9: *7652 connect() failed (111: Connection refused) while connecting to upstream, client: 47.98.103.162, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "amqps.brender.cn"
+2020/03/13 10:50:42 [error] 8#8: *7654 connect() failed (111: Connection refused) while connecting to upstream, client: 47.98.103.162, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "amqps.brender.cn"
+2020/03/13 10:50:42 [error] 8#8: *7656 connect() failed (111: Connection refused) while connecting to upstream, client: 47.98.103.162, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "amqps.brender.cn"
+2020/03/13 10:51:58 [error] 8#8: *7658 connect() failed (111: Connection refused) while connecting to upstream, client: 103.55.240.130, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/13 11:57:47 [error] 9#9: *7665 connect() failed (111: Connection refused) while connecting to upstream, client: 13.74.46.171, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86", referrer: "http://182.92.200.86:80/"
+2020/03/13 12:06:24 [error] 9#9: *7667 connect() failed (111: Connection refused) while connecting to upstream, client: 13.74.46.171, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 12:55:22 [error] 8#8: *7672 connect() failed (111: Connection refused) while connecting to upstream, client: 101.132.36.231, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 12:55:22 [error] 8#8: *7674 connect() failed (111: Connection refused) while connecting to upstream, client: 101.132.36.231, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 12:55:22 [error] 8#8: *7676 connect() failed (111: Connection refused) while connecting to upstream, client: 101.132.36.231, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 18:30:36 [error] 8#8: *9890 connect() failed (111: Connection refused) while connecting to upstream, client: 192.241.237.44, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 18:36:14 [error] 9#9: *9892 connect() failed (111: Connection refused) while connecting to upstream, client: 47.101.193.90, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 18:36:14 [error] 9#9: *9894 connect() failed (111: Connection refused) while connecting to upstream, client: 47.101.193.90, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 18:36:14 [error] 9#9: *9896 connect() failed (111: Connection refused) while connecting to upstream, client: 47.101.193.90, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 19:43:16 [error] 9#9: *9915 connect() failed (111: Connection refused) while connecting to upstream, client: 101.4.110.154, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 19:43:51 [error] 9#9: *9917 connect() failed (111: Connection refused) while connecting to upstream, client: 47.100.181.241, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 19:43:51 [error] 9#9: *9919 connect() failed (111: Connection refused) while connecting to upstream, client: 47.100.181.241, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 19:43:52 [error] 9#9: *9921 connect() failed (111: Connection refused) while connecting to upstream, client: 47.100.181.241, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/13 22:00:46 [error] 9#9: *9928 connect() failed (111: Connection refused) while connecting to upstream, client: 47.101.200.206, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/13 22:00:46 [error] 8#8: *9930 connect() failed (111: Connection refused) while connecting to upstream, client: 47.101.200.206, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/13 22:00:46 [error] 9#9: *9932 connect() failed (111: Connection refused) while connecting to upstream, client: 47.101.200.206, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/14 01:22:39 [error] 8#8: *9944 connect() failed (111: Connection refused) while connecting to upstream, client: 101.133.135.162, server: erl.brender.cn, request: "GET / HTTP/1.0", upstream: "http://172.18.0.1:9000/"
+2020/03/14 01:28:16 [error] 8#8: *9946 connect() failed (111: Connection refused) while connecting to upstream, client: 101.133.135.162, server: erl.brender.cn, request: "POST /sdk HTTP/1.1", upstream: "http://172.18.0.1:9000/sdk", host: "182.92.200.86"
+2020/03/14 01:28:16 [error] 8#8: *9948 connect() failed (111: Connection refused) while connecting to upstream, client: 101.133.135.162, server: erl.brender.cn, request: "GET /nmaplowercheck1584120494 HTTP/1.1", upstream: "http://172.18.0.1:9000/nmaplowercheck1584120494", host: "182.92.200.86"
+2020/03/14 01:28:16 [error] 9#9: *9950 connect() failed (111: Connection refused) while connecting to upstream, client: 101.133.135.162, server: erl.brender.cn, request: "GET /evox/about HTTP/1.1", upstream: "http://172.18.0.1:9000/evox/about", host: "182.92.200.86"
+2020/03/14 01:28:56 [error] 8#8: *9955 connect() failed (111: Connection refused) while connecting to upstream, client: 101.133.135.162, server: erl.brender.cn, request: "GET /HNAP1 HTTP/1.1", upstream: "http://172.18.0.1:9000/HNAP1", host: "182.92.200.86"
+2020/03/14 01:29:20 [error] 8#8: *9957 connect() failed (111: Connection refused) while connecting to upstream, client: 101.133.135.162, server: erl.brender.cn, request: "GET / HTTP/1.0", upstream: "http://172.18.0.1:9000/"
+2020/03/14 01:29:20 [error] 9#9: *9959 connect() failed (111: Connection refused) while connecting to upstream, client: 101.133.135.162, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/14 06:18:19 [error] 8#8: *9971 connect() failed (111: Connection refused) while connecting to upstream, client: 47.97.16.6, server: erl.brender.cn, request: "GET / HTTP/1.0", upstream: "http://172.18.0.1:9000/"
+2020/03/14 07:06:18 [error] 8#8: *9998 connect() failed (111: Connection refused) while connecting to upstream, client: 185.234.217.32, server: erl.brender.cn, request: "GET /.env.applelama HTTP/1.1", upstream: "http://172.18.0.1:9000/.env.applelama", host: "erl.brender.cn"
+2020/03/14 07:06:18 [error] 8#8: *9998 connect() failed (111: Connection refused) while connecting to upstream, client: 185.234.217.32, server: erl.brender.cn, request: "GET /.env HTTP/1.1", upstream: "http://172.18.0.1:9000/.env", host: "erl.brender.cn"
+2020/03/14 08:52:40 [error] 6#6: *1025 connect() failed (111: Connection refused) while connecting to upstream, client: 106.15.203.59, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/14 08:52:40 [error] 6#6: *1027 connect() failed (111: Connection refused) while connecting to upstream, client: 106.15.203.59, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/14 08:52:40 [error] 6#6: *1029 connect() failed (111: Connection refused) while connecting to upstream, client: 106.15.203.59, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "erl.brender.cn"
+2020/03/14 09:08:04 [error] 6#6: *1303 connect() failed (111: Connection refused) while connecting to upstream, client: 169.197.108.6, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86"
+2020/03/14 09:11:42 [error] 7#7: *1339 connect() failed (111: Connection refused) while connecting to upstream, client: 128.14.134.134, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86", referrer: "http://182.92.200.86/"
+2020/03/14 09:23:48 [error] 6#6: *1480 connect() failed (111: Connection refused) while connecting to upstream, client: 171.67.71.97, server: erl.brender.cn, request: "GET / HTTP/1.1", upstream: "http://172.18.0.1:9000/", host: "182.92.200.86", referrer: "http://182.92.200.86/"
+2020/03/14 09:45:16 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:17 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:18 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:19 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:20 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:23 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:26 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:33 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:45:47 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:13 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:45 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:46 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:47 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:48 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:49 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:51 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:46:55 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:47:02 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:47:16 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:47:42 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:48:34 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:49:35 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:50:36 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:31 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:32 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:32 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:33 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:35 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:37 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:41 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:51:48 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:05 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:05 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:06 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:07 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:09 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:11 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:15 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:22 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:52:35 [emerg] 1#1: "stream" directive is duplicate in /etc/nginx/nginx.conf:25
+2020/03/14 09:53:46 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:53:46 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:53:47 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:53:48 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:53:50 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:53:52 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:53:56 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:54:03 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
+2020/03/14 09:54:16 [emerg] 1#1: invalid host in upstream "ampqs://amqp.brender.cn:5671" in /etc/nginx/nginx.conf:15
